@@ -20,7 +20,7 @@ switch platform
 end
 
 % load mnist
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'), 'x_trn', 'x_tst', 'y_trn', 'y_tst');
+load(fullfile('data', 'mnist', 'all_digits.mat'), 'x_trn', 'x_tst', 'y_trn', 'y_tst');
 num_trn = 60000;
 x_trn = createArray(x_trn(:, 1:num_trn));
 x_tst = createArray(x_tst);

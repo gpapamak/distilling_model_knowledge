@@ -18,7 +18,7 @@ N = N1 * N2;
 
 %% -- mnist
 
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'), 'x_trn');
+load(fullfile('data', 'mnist', 'all_digits.mat'), 'x_trn');
 x = data_sample(x_trn, false, N);
 samples = zeros(D1*N1, D2*N2);
 

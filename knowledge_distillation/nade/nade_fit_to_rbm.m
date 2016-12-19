@@ -21,12 +21,12 @@ end
 % load mnist
 % note that this is Salakhutdinov and Murray's binarization; I need to use
 % it here because the rbm was trained on data binarized this way
-load(fullfile(outdir, 'randomly_binarized_mnist.mat'), 'x_trn', 'x_tst');
+load(fullfile('data', 'mnist', 'randomly_binarized_mnist.mat'), 'x_trn', 'x_tst');
 x_trn = createArray(x_trn);
 x_tst = createArray(x_tst(:, 1:500));
 
 % load rbm
-load(fullfile(outdir, 'rbm_CD25_500.mat'));
+load(fullfile('data', 'rbm', 'rbm_CD25_500.mat'));
 rbm.changePlatform(platform);
 [L, dLdx] = rbm.eval(x_trn);
 

@@ -19,7 +19,7 @@ range = [];
 
 %% -- rbm
 
-load(fullfile(outdir, 'rbm_CD25_500.mat'), 'rbm');
+load(fullfile('data', 'rbm', 'rbm_CD25_500.mat'), 'rbm');
 
 features = zeros(D1*N1, D2*N2);
 

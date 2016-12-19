@@ -39,7 +39,7 @@ ensemble = NeuralEnsemble(nets, ensemble_type, platform);
 clear num_nets nets net i;
 
 %% load mnist
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'), 'x_trn', 'x_tst', 'y_trn', 'y_tst');
+load(fullfile('data', 'mnist', 'all_digits.mat'), 'x_trn', 'x_tst', 'y_trn', 'y_tst');
 x_trn = createArray(x_trn(:, 1:60000));
 x_tst = createArray(x_tst);
 y_trn = createArray(y_trn(:, 1:60000));

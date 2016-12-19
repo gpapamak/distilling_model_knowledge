@@ -13,7 +13,7 @@ num_samples = 10000;
 platform = 'gpu';
 
 % load rbm
-load(fullfile(outdir, 'rbm_CD25_500.mat'), 'rbm');
+load(fullfile('data', 'rbm', 'rbm_CD25_500.mat'), 'rbm');
 rbm.changePlatform(platform);
 
 % kl divergence

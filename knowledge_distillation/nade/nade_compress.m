@@ -22,7 +22,7 @@ L = createArray(L(:, 1:num_samples));
 dLdx = createArray(dLdx(:, 1:num_samples));
 
 % load mnist
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'), 'x_tst');
+load(fullfile('data', 'mnist', 'all_digits.mat'), 'x_tst');
 x_tst = createArray(x_tst(:, 1:500));
 x_tst = double(x_tst > 0.5);
 

@@ -13,7 +13,7 @@ platform = 'cpu';
 savedir = fullfile('..', 'reports', 'figs', 'generative_models');
 
 % load rbm
-load(fullfile(outdir, 'rbm_CD25_500.mat'), 'rbm');
+load(fullfile('data', 'rbm', 'rbm_CD25_500.mat'), 'rbm');
 rbm.changePlatform(platform);
 
 %% plot training progress
@@ -58,7 +58,7 @@ system(['rm -f ', filename, '.eps']);
 %% calculate log probability on test set
 
 % load mnist; Salakhutdinov and Murray's binarization
-load(fullfile(outdir, 'randomly_binarized_mnist.mat'), 'x_tst');
+load(fullfile('data', 'mnist', 'randomly_binarized_mnist.mat'), 'x_tst');
 num_tst = size(x_tst, 2);
 bufsize = 500;
 

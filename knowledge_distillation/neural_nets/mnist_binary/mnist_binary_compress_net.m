@@ -17,7 +17,7 @@ large_net = net;
 clearvars -except large_net loss_function outfile outdir;
 
 %% load mnist
-load(fullfile('..', 'data', 'mnist', '2_vs_7.mat'));
+load(fullfile('data', 'mnist', '2_vs_7.mat'));
 num_trn = size(x_trn, 2);
 num_tst = size(x_tst, 2);
 clear y_trn;

@@ -19,7 +19,7 @@ N = N1 * N2;
 
 %% -- mnist
 
-load(fullfile(outdir, 'randomly_binarized_mnist.mat'), 'x_trn');
+load(fullfile('data', 'mnist', 'randomly_binarized_mnist.mat'), 'x_trn');
 x = data_sample(x_trn, false, N);
 samples = zeros(D1*N1, D2*N2);
 
@@ -42,7 +42,7 @@ system(['rm -f ', filename]);
 
 %% -- rbm
 
-load(fullfile(outdir, 'rbm_CD25_500.mat'), 'rbm');
+load(fullfile('data', 'rbm', 'rbm_CD25_500.mat'), 'rbm');
 
 rbm.setGibbsState(double(rand(D, N) > 0.5));
 x = rbm.gen(N, 2000);

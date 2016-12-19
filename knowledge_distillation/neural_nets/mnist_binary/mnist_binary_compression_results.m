@@ -8,7 +8,7 @@ clear;
 outdir = fullfile('outdir', 'neural_nets', 'mnist_binary');
 
 %% load mnist
-load(fullfile('..', 'data', 'mnist', '2_vs_7.mat'));
+load(fullfile('data', 'mnist', '2_vs_7.mat'));
 %x_tst = x_trn;
 %y_tst = y_trn;
 num_trn = size(x_trn, 2);

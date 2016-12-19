@@ -22,7 +22,7 @@ num_stds = 2;
 savedir = fullfile('..', 'reports', 'figs', 'model_compression');
 
 %% load mnist
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'), 'x_tst', 'y_tst');
+load(fullfile('data', 'mnist', 'all_digits.mat'), 'x_tst', 'y_tst');
 num_tst = size(x_tst, 2);
 [~, y_tst_lb] = max(y_tst);
 y_tst_lb = y_tst_lb - 1;

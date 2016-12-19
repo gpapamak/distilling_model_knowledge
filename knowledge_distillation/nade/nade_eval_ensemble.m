@@ -26,7 +26,7 @@ ensemble = NadeEnsemble(nades, platform);
 clear nade num_nades nades;
 
 % load mnist
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'), 'x_tst');
+load(fullfile('data', 'mnist', 'all_digits.mat'), 'x_tst');
 num_tst = 500;
 x_tst = createArray(x_tst(:, 1:num_tst));
 x_tst = double(x_tst > 0.5);

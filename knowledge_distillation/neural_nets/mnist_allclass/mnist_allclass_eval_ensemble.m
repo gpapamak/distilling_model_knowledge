@@ -29,7 +29,7 @@ net.changeLayerType('final', 'softmax');
 clearvars -except ensemble net;
 
 %% load mnist
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'));
+load(fullfile('data', 'mnist', 'all_digits.mat'));
 %x_tst = x_trn;
 %y_tst = y_trn;
 num_tst = size(x_tst, 2);

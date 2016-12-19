@@ -5,8 +5,6 @@ This project includes all the code from my MSc thesis at the University of Edinb
 > G. Papamakarios. _Distilling Model Knowledge_. MSc by Research Thesis, Centre for Doctoral Training in Data Science, University of Edinburgh. 2015.
 [[pdf]](https://arxiv.org/pdf/1510.02437v1.pdf) [[bibtex]](http://homepages.inf.ed.ac.uk/s1459647/bibtex/distilling_model_knowledge.bib)
 
-Datasets and experimental results are **not** included: please have a look at the thesis for details on how to get them.
-
 ## How to get started
 
 * In the main folder, run `install.m` to add all necessary paths to the matlab path.

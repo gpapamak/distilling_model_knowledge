@@ -11,7 +11,7 @@ rng('shuffle');
 seed = rng; %#ok<NASGU>
 
 % load mnist data
-load(fullfile('..', 'data', 'mnist', 'all_digits.mat'));
+load(fullfile('data', 'mnist', 'all_digits.mat'));
 [num_inputs, num_trn] = size(x_trn);
 
 % if bagging is on, resample mnist with replacement
