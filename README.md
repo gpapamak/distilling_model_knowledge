@@ -2,7 +2,7 @@
 
 This project includes all the code from my MSc thesis at the University of Edinburgh:
 
-> G. Papamakarios. _Distilling Model Knowledge_. MSc by Research Thesis, Centre for Doctoral Training in Data Science, University of Edinburgh. 2015.
+> G. Papamakarios, _Distilling Model Knowledge_, MSc by Research Thesis, University of Edinburgh, 2015.
 [[arXiv]](https://arxiv.org/abs/1510.02437) [[bibtex]](https://gpapamak.github.io/bibtex/distilling_model_knowledge.bib)
 
 ## How to get started
