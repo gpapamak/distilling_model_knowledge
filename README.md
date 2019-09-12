@@ -26,10 +26,10 @@ This chapter uses knowledge distillation on MCMC-based Bayesian inference. It sh
 
 This chapter shows how to distill generative models with intractable likelihoods, such as the Restricted Boltzmann Machine, into models with tractable likelihoods, such as the Neural Autoregressive Distribution Estimator. The code for this chapter is in the folder `knowledge_distillation/nade`.
 
-Note that this chapter has been published separately as:
+This chapter has been published separately as:
 
 > G. Papamakarios and I. Murray, _Distilling Intractable Generative Models_, NeurIPS workshop on Probabilistic Integration, 2015.
-[[pdf]](http://homepages.inf.ed.ac.uk/s1459647/papers/distilling_generative_models.pdf) [[bibtex]](http://homepages.inf.ed.ac.uk/s1459647/bibtex/distilling_generative_models.bib)
+[[pdf]](https://gpapamak.github.io/papers/distilling_generative_models.pdf) [[bibtex]](https://gpapamak.github.io/bibtex/distilling_generative_models.bib)
 
 There is also a dedicated github project for the code of this paper [here](https://github.com/gpapamak/distilling_intractable_generative_models). Please refer to this if you are only interested in this chapter.
 
