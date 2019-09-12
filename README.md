@@ -28,7 +28,7 @@ This chapter shows how to distill generative models with intractable likelihoods
 
 Note that this chapter has been published separately as:
 
-> G. Papamakarios and I. Murray. _Distilling Intractable Generative Models_. NIPS workshop on Probabilistic Integration, 2015.
+> G. Papamakarios and I. Murray, _Distilling Intractable Generative Models_, NeurIPS workshop on Probabilistic Integration, 2015.
 [[pdf]](http://homepages.inf.ed.ac.uk/s1459647/papers/distilling_generative_models.pdf) [[bibtex]](http://homepages.inf.ed.ac.uk/s1459647/bibtex/distilling_generative_models.bib)
 
 There is also a dedicated github project for the code of this paper [here](https://github.com/gpapamak/distilling_intractable_generative_models). Please refer to this if you are only interested in this chapter.
